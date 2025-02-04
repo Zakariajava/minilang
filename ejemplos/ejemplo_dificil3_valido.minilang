@@ -1,0 +1,20 @@
+SUBROUTINE BOOL esPositivo(INT n) DO
+  IF (n > 0) THEN
+    RETURN TRUE;
+  ELSE
+    RETURN FALSE;
+  END
+END
+
+SUBROUTINE VOID countDown(INT from) DO
+  WHILE (from > 0) DO
+    PRINT("Contando: " + from);
+    from = from - 1;
+  END
+END
+
+SUBROUTINE VOID main() DO
+  PRINT("¿5 es positivo?: " + esPositivo(5));
+  PRINT("Ahora hacemos una cuenta regresiva...");
+  countDown(3);
+END

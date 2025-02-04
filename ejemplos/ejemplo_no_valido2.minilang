@@ -1,0 +1,6 @@
+CONST INT x = 100;
+
+SUBROUTINE INT main() DO   
+  x = 200;                 
+  RETURN 0;
+END

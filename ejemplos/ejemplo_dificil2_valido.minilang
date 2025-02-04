@@ -1,0 +1,14 @@
+CONST INT globalValue = 42;
+CONST STRING globalMsg = "Hello from MiniLang!";
+
+SUBROUTINE INT addTwoNumbers(INT x, INT y) DO
+  x = x + y;
+  RETURN x;
+END
+
+SUBROUTINE VOID main() DO
+  PRINT("Valor global: " + globalValue);
+  PRINT("Mensaje: " + globalMsg);
+
+  PRINT("El resultado de la suma es: " + addTwoNumbers(10, 15));
+END

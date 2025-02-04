@@ -1,0 +1,10 @@
+CONST INT x = 10;
+
+SUBROUTINE INT sumar(INT a, INT b) DO
+  a = a + b;
+  RETURN a;
+END
+
+SUBROUTINE VOID main() DO
+  PRINT("La suma es: " + sumar(x, 5));
+END

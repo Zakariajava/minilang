@@ -1,0 +1,3 @@
+SUBROUTINE VOID main() DO
+  PRINT("Hola mundo");
+END

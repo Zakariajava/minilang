@@ -1,0 +1,7 @@
+SUBROUTINE INT sumar(INT a, INT b) DO
+  RETURN a + b;
+END
+
+SUBROUTINE VOID main() DO
+  PRINT("Intento de sumar: " + sumar(10, 5;  
+END
